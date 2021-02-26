@@ -7,7 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cursive {
+  font-family: 'Pacifico', cursive;
+}
+
+:root {
+  --heading-color: #fff;
+  --heading-bg-color: #e63946;
+  --bg-color-level-1: #f1faee;
+  --bg-color-level-2: #a8dadc;
+  --bg-color-level-3: #457b9d;
+  --bg-color-level-4: #1d3557;
 }

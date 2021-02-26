@@ -1,0 +1,14 @@
+.card {
+    align-items: center;
+    background-color: var(--bg-color-level-1);
+    border: 1px solid var(--bg-color-level-3);
+    box-sizing: border-box;
+    border-collapse: collapse;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    margin-top: -1px;
+    margin-left: -1px;
+    text-align: center;
+    width: 20vw;
+}
