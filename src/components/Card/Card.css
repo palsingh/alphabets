@@ -1,14 +1,16 @@
 .card {
     align-items: center;
     background-color: var(--bg-color-level-1);
-    border: 1px solid var(--bg-color-level-3);
+    border-left: 1px solid var(--bg-color-level-3);
+    border-bottom: 1px solid var(--bg-color-level-3);
     box-sizing: border-box;
-    border-collapse: collapse;
     display: flex;
-    height: 20vh;
+    height: var(--card-height);
     justify-content: center;
-    margin-top: -1px;
-    margin-left: -1px;
     text-align: center;
-    width: 20vw;
+    width: 10%;
+}
+
+.card .char {
+    font-size: var(--card-font-size);
 }
